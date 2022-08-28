@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.0.0</Version>
+    <Authors>SangSQ(桑世强)</Authors>
+    <Description>Common Libraries: MD5 SHA1 UrlSafeBase64 SimpleJWT</Description>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/sangyuxiaowu/Sang.CommonLibraries</RepositoryUrl>
+    <PackageTags>dotnet;common;libraries</PackageTags>
+  </PropertyGroup>
+
+</Project>
