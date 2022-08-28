@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace CommonLibraries.String
+namespace Sang.CommonLibraries.String
 {
     public static class UrlSafeBase64
     {
@@ -12,7 +12,7 @@ namespace CommonLibraries.String
         /// <returns>编码后的文本字符串</returns>
         public static string ToUrlSafeBase64(this string text)
         {
-            return UrlSafeBase64_Encode(text);
+            return text.UrlSafeBase64_Encode();
         }
 
         /// <summary>
@@ -22,7 +22,7 @@ namespace CommonLibraries.String
         /// <returns>编码后的文本字符串</returns>
         public static string ToUrlSafeBase64(this byte[] plainTextBytes)
         {
-            return UrlSafeBase64_Encode(plainTextBytes);
+            return plainTextBytes.UrlSafeBase64_Encode();
         }
 
         /// <summary>

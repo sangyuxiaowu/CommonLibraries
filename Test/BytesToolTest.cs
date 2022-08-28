@@ -1,4 +1,4 @@
-﻿using CommonLibraries.String;
+﻿using Sang.CommonLibraries.String;
 using System;
 using System.Collections.Generic;
 using System.Linq;

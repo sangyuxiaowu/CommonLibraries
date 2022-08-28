@@ -1,6 +1,6 @@
 
 using System.Text;
-using CommonLibraries.String;
+using Sang.CommonLibraries.String;
 
 namespace StringTest
 {

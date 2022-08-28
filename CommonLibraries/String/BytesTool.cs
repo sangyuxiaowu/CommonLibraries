@@ -1,8 +1,7 @@
-﻿
-using System.Reflection.Metadata.Ecma335;
+﻿using System.Reflection.Metadata.Ecma335;
 using System.Text;
 
-namespace CommonLibraries.String
+namespace Sang.CommonLibraries.String
 {
     public static class BytesTool
     {
@@ -13,10 +12,10 @@ namespace CommonLibraries.String
         /// <param name="join">连接符</param>
         /// <param name="isUpper">是否返回大写</param>
         /// <returns></returns>
-        public static string ToHexString(this string str,string join = "", bool isUpper = false)
+        public static string ToHexString(this string str, string join = "", bool isUpper = false)
         {
             var bytes = Encoding.UTF8.GetBytes(str);
-            return ToHexString(bytes,join, isUpper);
+            return bytes.ToHexString(join, isUpper);
         }
 
         /// <summary>
@@ -30,7 +29,7 @@ namespace CommonLibraries.String
         {
             var str = join == "-" ? BitConverter.ToString(bytes) : BitConverter.ToString(bytes).Replace("-", join);
             return isUpper ? str : str.ToLower();
-            
+
             /*
             string hexString = string.Empty;
             if (bytes != null)

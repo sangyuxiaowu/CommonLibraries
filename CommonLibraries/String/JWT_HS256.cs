@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace CommonLibraries.String
+namespace Sang.CommonLibraries.String
 {
     public static class JWT_HS256
     {
@@ -28,8 +28,8 @@ namespace CommonLibraries.String
         {
             return MakeToken(JsonSerializer.Serialize(jwtPayLoad), _jwtSecret);
         }
-        
-        
+
+
         /// <summary>
         /// 生成jwt的token
         /// </summary>

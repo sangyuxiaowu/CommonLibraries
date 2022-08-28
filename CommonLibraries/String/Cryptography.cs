@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace CommonLibraries.String
+namespace Sang.CommonLibraries.String
 {
     public static class Cryptography
     {
@@ -46,7 +46,7 @@ namespace CommonLibraries.String
         /// <param name="str">待计算字符</param>
         /// <param name="isUpper">是否是大写</param>
         /// <returns>计算结果</returns>
-        public static string SHA1(this string str,bool isUpper = false)
+        public static string SHA1(this string str, bool isUpper = false)
         {
             using (var sha1 = System.Security.Cryptography.SHA1.Create())
             {
