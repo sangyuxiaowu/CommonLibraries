@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>SangSQ(桑世强)</Authors>
-    <Description>Common Libraries: MD5 SHA1 UrlSafeBase64 SimpleJWT</Description>
+    <Description>Common Libraries:Bytes Tool HmacSHA256 MD5 SHA1 UrlSafeBase64 SimpleJWT</Description>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/sangyuxiaowu/Sang.CommonLibraries</RepositoryUrl>
+    <RepositoryUrl>https://github.com/sangyuxiaowu/CommonLibraries</RepositoryUrl>
     <PackageTags>dotnet;common;libraries</PackageTags>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
@@ -16,6 +16,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageIcon>ico.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IncludeSymbols>False</IncludeSymbols>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -27,7 +28,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\sangservertool\LICENSE.txt">
+    <None Include="..\LICENSE.txt">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
