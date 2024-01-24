@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+    <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Authors>SangSQ(桑世强)</Authors>
     <Description>Common Libraries:Bytes Tool HmacSHA256 MD5 SHA1 UrlSafeBase64 SimpleJWT</Description>
     <RepositoryType>git</RepositoryType>
