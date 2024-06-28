@@ -1,4 +1,4 @@
-﻿using System.Reflection.Metadata.Ecma335;
+﻿using System;
 using System.Text;
 
 namespace Sang.CommonLibraries.String
